@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: gray;
+  color: white;
+  height: 98px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.space-around {
+  justify-content: space-around;
+}
