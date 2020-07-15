@@ -5,26 +5,55 @@
   margin: 0;
   padding: 0;
 }
+
+/* Nav */
+
 nav {
   background-color: gray;
   color: white;
   height: 98px;
+  border: 10px solid mistyrose;
 }
+
 nav a {
   color: white;
   text-decoration: none;
 }
 
+nav ul {
+  width: 1240px;
+  list-style: none;
+  font-size: 21.429px;
+}
+
+/* Generic Classes */
+
 .flex {
   display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
 }
 
 .justify-center {
   justify-content: center;
 }
 
+.space-between {
+  justify-content: space-between;
+}
+
 .align-items {
   align-items: center;
+}
+
+.align-center {
+  align-content: center;
 }
 
 .space-around {
