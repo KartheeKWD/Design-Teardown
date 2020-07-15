@@ -9,10 +9,8 @@
 body {
   width: 100vw;
   min-width: 1440px;
+  font-family: "Nunito", sans-serif, "Dosis", sans-serif;
 }
-
-/* header {
-} */
 
 /* Nav */
 
@@ -24,14 +22,13 @@ nav {
 
 nav a:hover {
   background-color: darkgray;
-
   border-radius: 4px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
-  padding: 10px 5px;
+  padding: 10px 12px;
 }
 
 nav ul {
@@ -42,20 +39,22 @@ nav ul {
 
 #left-nav {
   padding: 80px 0 48px 42px;
-  background-color: red;
 }
 
 #mid-nav {
-  width: 644px;
-  background-color: goldenrod;
-  margin-right: 150px;
-  padding-left: 50px;
+  width: 1000px;
+  margin-right: 48px;
+  padding-left: 48px;
 }
 
 #right-nav {
   /* background-color: mistyrose; */
   margin: 30px 40px 30px 0;
   /* align-self: center; */
+}
+
+.cat-logo {
+  filter: grayscale([ | ]);
 }
 
 /* Generic Classes */
@@ -112,7 +111,7 @@ nav ul {
 .fa-search {
   position: absolute;
   top: 38px;
-  right: 358px;
+  right: 355px;
   color: black;
 }
 
@@ -124,8 +123,20 @@ nav ul {
   color: gray;
 }
 
+.dark-gray {
+  color: darkgray;
+  border: solid 10px darkgray;
+  
+}
+
 .bold {
   font-weight: bold;
+}
+
+.effect:hover {
+    background-color: lightgray;
+    border-radius: 4px;
+  }
 }
 
 /*  conatiner */
