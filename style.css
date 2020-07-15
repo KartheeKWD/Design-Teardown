@@ -8,6 +8,7 @@
 
 body {
   width: 100vw;
+  min-width: 1440px;
 }
 
 /* header {
@@ -47,12 +48,13 @@ nav ul {
 #mid-nav {
   width: 644px;
   background-color: goldenrod;
-  margin-right: 188px;
+  margin-right: 150px;
+  padding-left: 50px;
 }
 
 #right-nav {
   /* background-color: mistyrose; */
-  margin: 0 40px 30px 0;
+  margin: 30px 40px 30px 0;
   /* align-self: center; */
 }
 
@@ -124,4 +126,11 @@ nav ul {
 
 .bold {
   font-weight: bold;
+}
+
+/*  conatiner */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
 }
