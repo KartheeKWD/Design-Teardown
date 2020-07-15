@@ -5,9 +5,14 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100vw;
 }
+
+/* header {
+} */
+
 /* Nav */
 
 nav {
@@ -34,8 +39,21 @@ nav ul {
   width: 100vw;
 }
 
+#left-nav {
+  padding: 80px 0 48px 42px;
+  background-color: red;
+}
+
 #mid-nav {
   width: 644px;
+  background-color: goldenrod;
+  margin-right: 188px;
+}
+
+#right-nav {
+  /* background-color: mistyrose; */
+  margin: 0 40px 30px 0;
+  /* align-self: center; */
 }
 
 /* Generic Classes */
@@ -68,6 +86,10 @@ nav ul {
   align-content: center;
 }
 
+.align-self {
+  align-self: center;
+}
+
 .space-around {
   justify-content: space-around;
 }
@@ -77,5 +99,29 @@ nav ul {
 }
 
 .input {
-  padding: 50px;
+  /* padding: 20px; */
+  height: 56px;
+  width: 350px;
+  border: transparent;
+  border-radius: 10px;
+  padding-left: 50px;
+}
+
+.fa-search {
+  position: absolute;
+  top: 38px;
+  right: 358px;
+  color: black;
+}
+
+.x-large {
+  font-size: x-large;
+}
+
+.gray {
+  color: gray;
+}
+
+.bold {
+  font-weight: bold;
 }

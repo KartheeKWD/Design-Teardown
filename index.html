@@ -12,20 +12,20 @@
   </head>
   <body>
     <header>
-      <nav class="flex justify-center space-around">
-        <ul
-          class="m-0-auto flex justify-center align-items align-center space-around"
-        >
-          <li class="">
-            <img
-              class="m-0-auto flex justify-center align-items"
-              src="images/smashing-magazine.svg"
-              width="180px"
-              height="180px"
-              alt="smashing-magazine-logo"
-            />
-          </li>
-          <div id="mid-nav" class="flex space-between">
+      <nav class="flex">
+        <ul class="flex space-between">
+          <div id="left-nav" class="align-self">
+            <li class="space-between">
+              <img
+                src="images/smashing-magazine.svg"
+                width="193.84px"
+                height="70.49px"
+                alt="smashing-magazine-logo"
+              />
+            </li>
+          </div>
+
+          <div id="mid-nav" class="flex align-self space-between">
             <li class="">
               <a href="">Articles</a>
             </li>
@@ -39,19 +39,26 @@
               <a href="">Events</a>
             </li>
             <li class="">
-              <a href="">Memberships</a>
+              <a href="">Membership</a>
+            </li>
+            <li class="">
+              <a href="">Jobs</a>
             </li>
             <li class="">
               <a href="">More</a>
             </li>
           </div>
-
-          <li class="">
-            <a href="">
-              <i class="fas fa-search"></i>
-              <input type="text" placeholder="Search articles..."
-            /></a>
-          </li>
+          <div id="right-nav" class="align-self bold">
+            <li class="">
+              <a href="">
+                <i class="fas fa-search"></i>
+                <input
+                  class="input bold x-large"
+                  type="text"
+                  placeholder="Search articles..."
+              /></a>
+            </li>
+          </div>
         </ul>
       </nav>
     </header>
