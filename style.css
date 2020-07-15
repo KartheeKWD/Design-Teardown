@@ -5,25 +5,37 @@
   margin: 0;
   padding: 0;
 }
-
+body {
+  width: 100vw;
+}
 /* Nav */
 
 nav {
   background-color: gray;
   color: white;
   height: 98px;
-  border: 10px solid mistyrose;
+}
+
+nav a:hover {
+  background-color: darkgray;
+
+  border-radius: 4px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  padding: 10px 5px;
 }
 
 nav ul {
-  width: 1240px;
   list-style: none;
   font-size: 21.429px;
+  width: 100vw;
+}
+
+#mid-nav {
+  width: 644px;
 }
 
 /* Generic Classes */
@@ -58,4 +70,12 @@ nav ul {
 
 .space-around {
   justify-content: space-around;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
+
+.input {
+  padding: 50px;
 }
