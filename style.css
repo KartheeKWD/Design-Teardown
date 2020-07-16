@@ -7,6 +7,7 @@
 }
 
 body {
+  color: white;
   width: 100vw;
   min-width: 1440px;
   font-family: "Nunito", sans-serif, "Dosis", sans-serif;
@@ -34,6 +35,13 @@ nav ul {
   padding: 80px 0 48px 42px;
 }
 
+.fa-search {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+  color: grey;
+}
+
 #mid-nav {
   width: 1000px;
   margin-right: 48px;
@@ -42,7 +50,6 @@ nav ul {
 
 #right-nav {
   margin: 30px 40px 30px 0;
-
   position: relative;
 }
 
@@ -75,16 +82,16 @@ nav ul {
   display: flex;
 }
 
-/* .flex-1 {
-  flex: 1;
+.grid {
+  display: grid;
 }
-
-.flex-2 {
-  flex: 2;
-} */
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .space-between {
@@ -103,12 +110,19 @@ nav ul {
   align-self: center;
 }
 
+.article-image {
+  border-radius: 6px;
+  border: 3px solid white;
+  margin-bottom: 20px;
+  margin-left: -150px;
+}
+
 .space-around {
   justify-content: space-around;
 }
 
-.m-0-auto {
-  margin: 0 auto;
+.card-1-margin {
+  margin-left: -150px;
 }
 
 .text-align {
@@ -123,47 +137,103 @@ nav ul {
   padding-left: 50px;
 }
 
-.fa-search {
-  position: absolute;
-  top: 22px;
-  left: 20px;
-  color: grey;
-}
-
 .x-large {
   font-size: x-large;
 }
 
 .gray {
-  color: gray;
+  background-color: #828282;
 }
 
 .dark-gray {
-  color: #666;
+  background-color: #a9a9a9;
 }
 
-.bold {
+.light-gray {
+  background-color: #d3d3d3;
+}
+
+.dim-gray {
+  background-color: #696969;
+}
+
+.dark-slate-gray {
+  background-color: darkslategray;
+}
+
+.mink {
+  background-color: #88807b;
+}
+
+.iron {
+  background-color: #48494b;
+}
+
+.ash {
+  background-color: #544c4a;
+}
+
+. .bold {
   font-weight: bold;
 }
 
-/* Heading */
+.italic {
+  font-style: italic;
+}
+
+.bigger {
+  font-size: 48px;
+}
+
+.inline {
+  display: inline;
+}
+
+/*  Main Section  */
+
+h1 p {
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+}
+
+h1 {
+  position: absolute;
+  color: black;
+  margin-top: 28px;
+  margin-left: 525px;
+  padding: 16px;
+}
+
 h1 span::before {
   content: "\a";
   white-space: pre;
 }
 
-/*  card */
-
-.card-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: 5px solid yellow;
+h2 span::before {
+  content: "\a";
+  white-space: pre;
 }
 
-.article-container-1 {
+.card-1 {
+  width: 721px;
+  height: 712px;
+}
+
+#main-article-container {
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+#article-container-1 {
   background-color: #555;
 }
 
-.article-container-2 {
+#article-container-2 {
   background-color: #666;
+}
+
+article p {
+  padding-left: 25px;
+  padding-bottom: 16px;
 }
