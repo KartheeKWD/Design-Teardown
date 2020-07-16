@@ -17,91 +17,64 @@
   <body>
     <header>
       <nav class="flex">
-        <ul class="flex space-between">
-          <div id="left-nav" class="align-self">
-            <li class="space-between">
-              <img
-                src="images/smashing-magazine.svg"
-                width="193.84px"
-                height="70.49px"
-                alt="smashing-magazine-logo"
-              />
-            </li>
-          </div>
+        <div id="left-nav" class="align-self">
+          <img
+            src="images/smashing-magazine.svg"
+            width="193.84px"
+            height="70.49px"
+            alt="smashing-magazine-logo"
+          />
+        </div>
 
-          <div id="mid-nav" class="flex align-self space-between">
+        <div id="mid-nav" class="align-self">
+          <ul class="flex align-items space-between">
             <li class="">
-              <a href="">Articles</a>
+              <a class="effect" href="">Articles</a>
             </li>
             <li class="">
-              <a href="">Guides</a>
+              <a class="effect" href="">Guides</a>
             </li>
             <li class="">
-              <a href="">Books</a>
+              <a class="effect" href="">Books</a>
             </li>
             <li class="">
-              <a href="">Events</a>
+              <a class="effect" href="">Events</a>
             </li>
             <li class="">
-              <a href="">Membership</a>
+              <a class="effect" href="">Membership</a>
             </li>
             <li class="">
               <a class="effect" href="">Jobs</a>
             </li>
-            <li class="dark-gray">
+            <li id="special-item" class="dark-gray">
               <a href="">More</a>
             </li>
-          </div>
-          <div id="right-nav" class="align-self bold">
-            <li class="">
-              <i class="fas fa-search"></i>
-              <input
-                class="input bold x-large"
-                type="text"
-                placeholder="Search articles..."
-              />
-            </li>
-          </div>
-        </ul>
+          </ul>
+        </div>
+        <div id="right-nav" class="align-self bold">
+          <i class="fas fa-search fa-lg"></i>
+          <input
+            class="input bold x-large"
+            type="text"
+            placeholder="Search articles..."
+          />
+        </div>
       </nav>
     </header>
 
     <main>
-      <div class="latest-articles">
-        <h1>Don’t Miss These Latest Articles</h1>
-      </div>
-      <div class="conatiner">
-        <article class="main-container">
-          <div class="container-img">
-            <img src="" alt="" />
-            <p>Mike Rogeres wrote</p>
-          </div>
-          <div class="container-text">
-            <h3>An Introduction to stimulus.js</h3>
-            <i>Icon</i>
-            <p>Leave a comment</p>
-          </div>
-          <div class="container-comments">
-            <p>#Javascript<sup>280</sup></p>
-            <p>#Frameworks<sup>90</sup></p>
-            <p>#Tools<sup>234</sup></p>
-          </div>
-        </article>
-        <article class="main-container">
-          <div class="container-img">
-            <img src="" alt="" />
-            <p>Mike Rogeres wrote</p>
-          </div>
-          <div class="container-text">
-            <h3>An Introduction to stimulus.js</h3>
-            <i>Icon</i>
-            <p>Leave a comment</p>
-          </div>
-          <div class="container-comments">
-            <p>#Javascript<sup>280</sup></p>
-            <p>#Frameworks<sup>90</sup></p>
-            <p>#Tools<sup>234</sup></p>
-          </div>
+      <h1 class="text-align">Don’t Miss These Latest <span>Articles</span></h1>
+
+      <div class="card-1">
+        <article class="article-container-1">
+          <img src="" alt="" />
+          <p>Mike Rogeres wrote</p>
+          <h3>An Introduction to stimulus.js</h3>
+          <i>Icon</i>
+          <p>Leave a comment</p>
+          <p>#Javascript<sup>280</sup></p>
+          <p>#Frameworks<sup>90</sup></p>
+          <p>#Tools<sup>234</sup></p>
         </article>
       </div>
     </main>

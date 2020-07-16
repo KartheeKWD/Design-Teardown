@@ -20,21 +20,14 @@ nav {
   height: 98px;
 }
 
-nav a:hover {
-  background-color: darkgray;
-  border-radius: 4px;
-}
-
 nav a {
-  color: white;
   text-decoration: none;
-  padding: 10px 12px;
+  color: white;
 }
 
 nav ul {
   list-style: none;
   font-size: 21.429px;
-  width: 100vw;
 }
 
 #left-nav {
@@ -48,13 +41,32 @@ nav ul {
 }
 
 #right-nav {
-  /* background-color: mistyrose; */
   margin: 30px 40px 30px 0;
-  /* align-self: center; */
+
+  position: relative;
 }
 
-.cat-logo {
-  filter: grayscale([ | ]);
+#special-item {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#special-item:hover {
+  background-color: #444;
+}
+
+.effect {
+  color: white;
+  text-decoration: none;
+
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.effect:hover {
+  background-color: darkgray;
+  border-radius: 4px;
 }
 
 /* Generic Classes */
@@ -63,13 +75,13 @@ nav ul {
   display: flex;
 }
 
-.flex-1 {
+/* .flex-1 {
   flex: 1;
 }
 
 .flex-2 {
   flex: 2;
-}
+} */
 
 .justify-center {
   justify-content: center;
@@ -99,20 +111,23 @@ nav ul {
   margin: 0 auto;
 }
 
+.text-align {
+  text-align: center;
+}
+
 .input {
-  /* padding: 20px; */
   height: 56px;
   width: 350px;
-  border: transparent;
+  border: none;
   border-radius: 10px;
   padding-left: 50px;
 }
 
 .fa-search {
   position: absolute;
-  top: 38px;
-  right: 355px;
-  color: black;
+  top: 22px;
+  left: 20px;
+  color: grey;
 }
 
 .x-large {
@@ -124,19 +139,17 @@ nav ul {
 }
 
 .dark-gray {
-  color: darkgray;
-  border: solid 10px darkgray;
-  
+  color: #666;
 }
 
 .bold {
   font-weight: bold;
 }
 
-.effect:hover {
-    background-color: lightgray;
-    border-radius: 4px;
-  }
+/* Heading */
+h1 span::before {
+  content: "\a";
+  white-space: pre;
 }
 
 /*  conatiner */
