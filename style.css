@@ -152,9 +152,18 @@ h1 span::before {
   white-space: pre;
 }
 
-/*  conatiner */
+/*  card */
 
-.container {
+.card-1 {
   display: grid;
-  grid-template-columns: 1fr, 1fr;
+  grid-template-columns: 1fr 1fr;
+  border: 5px solid yellow;
+}
+
+.article-container-1 {
+  background-color: #555;
+}
+
+.article-container-2 {
+  background-color: #666;
 }
