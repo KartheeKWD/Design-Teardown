@@ -8,6 +8,7 @@
 
 body {
   color: white;
+  background-color: gray;
   width: 100vw;
   min-width: 1440px;
   font-family: "Nunito", sans-serif, "Dosis", sans-serif;
@@ -236,4 +237,7 @@ h2 span::before {
 article p {
   padding-left: 25px;
   padding-bottom: 16px;
+}
+.card-2 {
+  grid-template-columns: repeat(3, 1fr);
 }
