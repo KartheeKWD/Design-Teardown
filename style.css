@@ -354,6 +354,33 @@ article p {
   border-spacing: 50px;
 }
 
+/* person-container */
+
+.person-container {
+  height: 1584px;
+}
+
+.person-image-large {
+  width: 260px;
+  height: 260px;
+  margin: 110px;
+}
+
+section img {
+  float: left;
+}
+
+.person-container section {
+  float: right;
+  padding-top: 65px;
+}
+
+.person-article-container {
+  clear: both;
+}
+
+/* .card-3-container */
+
 .card-3-container {
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 40px;
