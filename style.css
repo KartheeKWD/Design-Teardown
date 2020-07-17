@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: black;
+  color: #444;
 }
 
 /* Nav */
@@ -150,8 +150,16 @@ nav ul {
   background-color: #828282;
 }
 
+.gray-text {
+  color: darkgray;
+}
+
 .dark-gray {
   background-color: #a9a9a9;
+}
+
+.dark-gray-text {
+  color: #2b2d2f;
 }
 
 .light-gray {
@@ -168,6 +176,10 @@ nav ul {
 
 .mink {
   background-color: #88807b;
+}
+
+.iron-text {
+  color: #48494b;
 }
 
 .iron {
@@ -190,14 +202,25 @@ nav ul {
   font-size: 48px;
 }
 
+.smaller {
+  font-size: 12px;
+}
+
 .inline {
   display: inline;
 }
 
+.arrow:hover {
+  color: white;
+  padding: 20px;
+}
+
 .arrow {
-  width: 50px;
-  height: 50px;
+  background-color: goldenrod;
+  width: 24px;
   margin-left: 30px;
+  position: relative;
+  bottom: -50px;
 }
 
 /*  Main Section  */
@@ -249,6 +272,7 @@ article p {
 }
 .card-2 {
   grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 32px;
   /* padding: 50px 50px 100px 50px; */
 }
 
@@ -256,14 +280,13 @@ article p {
   height: 550px;
   padding: 50px 50px 100px 50px;
   color: black;
-  /* text-align: center; */
 }
 
 .card-2 article:hover {
   background-color: white;
   transition: ease-out color 0.9s;
   color: black;
-  padding: 30px;
+  /* padding: 30px; */
 
   box-shadow: grey;
 }
