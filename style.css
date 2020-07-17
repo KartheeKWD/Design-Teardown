@@ -83,9 +83,24 @@ nav ul {
 
 /* Generic Classes */
 
+.line-height-1 {
+  line-height: 50px;
+}
+
+.line-height-2 {
+  line-height: 88px;
+}
+
+.line-height-3 {
+  line-height: 20px;
+}
+
 .lighter {
-  font-family: "Nunito", sans-serif, "Dosis", sans-serif;
   font-weight: 300;
+}
+
+.justify-text {
+  text-align: justify;
 }
 
 .remove-underline {
@@ -155,6 +170,10 @@ nav ul {
   font-size: x-large;
 }
 
+.white {
+  color: white;
+}
+
 .gray {
   background-color: #828282;
 }
@@ -207,16 +226,32 @@ nav ul {
   font-style: italic;
 }
 
+.big {
+  font-size: 21px;
+}
+
 .bigger {
   font-size: 48px;
+}
+
+.small {
+  font-size: 16px;
 }
 
 .smaller {
   font-size: 12px;
 }
 
+.medium {
+  font-size: 17.5px;
+}
+
 .inline {
   display: inline;
+}
+
+.block {
+  display: block;
 }
 
 .arrow:hover {
@@ -244,7 +279,7 @@ h1 {
   position: absolute;
   color: black;
   margin-top: 28px;
-  margin-left: 37%;
+  margin-left: 36%;
   padding: 16px;
 }
 
@@ -295,12 +330,11 @@ article p {
   background-color: white;
   transition: ease-out color 0.9s;
   color: black;
-  /* padding: 30px; */
 
   box-shadow: grey;
 }
 
-a h2 {
+.card-2 a h2 {
   padding-left: 20px;
 }
 
@@ -310,13 +344,48 @@ a h2 {
 
 .arrow-2 {
   width: 15px;
-  margin: 60px 0 0 10px;
-  /* padding-top: 50px; */
+  margin-left: 6px;
   color: #555;
 }
 
 .border-style {
-  border-bottom: 5px solid grey;
+  border-bottom: 5px solid #48494b;
   padding-bottom: 10px;
   border-spacing: 50px;
+}
+
+.card-3-container {
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 40px;
+  grid-column-gap: 5px;
+  margin: 64px 50px;
+}
+
+.card-3-container button {
+  display: block;
+  border-radius: 5px;
+  padding: 18px;
+  border: none;
+  margin-top: 32px;
+  background-color: #a9a9a9;
+  font-size: 24px;
+}
+
+.card-3-container article {
+  border: none;
+  border-radius: 10px;
+  padding: 6px 40px 10px 5px;
+  margin: 10px;
+  height: 465px;
+  background-color: #48494b;
+}
+
+.card-3-container article p {
+  padding-top: 60px;
+  margin-left: 10px;
+}
+
+.card-3-container h2 span {
+  margin-left: 36px;
+  margin-top: 20px;
 }
