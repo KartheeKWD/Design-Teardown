@@ -14,6 +14,10 @@ body {
   font-family: "Nunito", sans-serif, "Dosis", sans-serif;
 }
 
+a {
+  color: black;
+}
+
 /* Nav */
 
 nav {
@@ -174,7 +178,7 @@ nav ul {
   background-color: #544c4a;
 }
 
-. .bold {
+.bold {
   font-weight: bold;
 }
 
@@ -190,6 +194,12 @@ nav ul {
   display: inline;
 }
 
+.arrow {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
+}
+
 /*  Main Section  */
 
 h1 p {
@@ -202,7 +212,7 @@ h1 {
   position: absolute;
   color: black;
   margin-top: 28px;
-  margin-left: 525px;
+  margin-left: 37%;
   padding: 16px;
 }
 
@@ -217,7 +227,6 @@ h2 span::before {
 }
 
 .card-1 {
-  width: 721px;
   height: 712px;
 }
 
@@ -240,4 +249,25 @@ article p {
 }
 .card-2 {
   grid-template-columns: repeat(3, 1fr);
+  /* padding: 50px 50px 100px 50px; */
+}
+
+.card-2 article {
+  height: 550px;
+  padding: 50px 50px 100px 50px;
+  color: black;
+  /* text-align: center; */
+}
+
+.card-2 article:hover {
+  background-color: white;
+  transition: ease-out color 0.9s;
+  color: black;
+  padding: 30px;
+
+  box-shadow: grey;
+}
+
+a h2 {
+  padding-left: 20px;
 }
