@@ -83,6 +83,15 @@ nav ul {
 
 /* Generic Classes */
 
+.lighter {
+  font-family: "Nunito", sans-serif, "Dosis", sans-serif;
+  font-weight: 300;
+}
+
+.remove-underline {
+  text-decoration: none;
+}
+
 .flex {
   display: flex;
 }
@@ -293,4 +302,21 @@ article p {
 
 a h2 {
   padding-left: 20px;
+}
+
+.special-div {
+  height: 250px;
+}
+
+.arrow-2 {
+  width: 15px;
+  margin: 60px 0 0 10px;
+  /* padding-top: 50px; */
+  color: #555;
+}
+
+.border-style {
+  border-bottom: 5px solid grey;
+  padding-bottom: 10px;
+  border-spacing: 50px;
 }
