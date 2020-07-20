@@ -363,20 +363,29 @@ article p {
 .person-image-large {
   width: 260px;
   height: 260px;
-  margin: 110px;
+  margin: 40px;
 }
 
 section img {
   float: left;
+  border: 5px solid white;
+}
+
+section h3 {
+  padding-bottom: 40px;
 }
 
 .person-container section {
   float: right;
   padding-top: 65px;
+  margin-right: 60px;
 }
 
 .person-article-container {
   clear: both;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin: 130px 60px;
 }
 
 /* .card-3-container */
