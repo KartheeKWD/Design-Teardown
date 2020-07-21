@@ -374,12 +374,18 @@ article p {
 
 .special-div {
   height: 250px;
+  background-color: #696969;
+}
+
+.special-div a {
+  color: white;
 }
 
 .arrow-2 {
   width: 15px;
   margin-left: 6px;
   color: #555;
+  filter: invert();
 }
 
 .border-style {
