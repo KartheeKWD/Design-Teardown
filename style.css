@@ -152,6 +152,11 @@ nav ul {
   border: 3px solid white;
   margin-bottom: 20px;
   margin-left: -150px;
+  transform: rotate(-25deg);
+}
+
+.article-image:hover {
+  transform: rotate(0deg);
 }
 
 .space-around {
@@ -270,17 +275,13 @@ nav ul {
   display: block;
 }
 
-.arrow:hover {
-  color: white;
-  padding: 20px;
-}
-
-.arrow {
-  background-color: goldenrod;
+.arrow-card-1 {
   width: 24px;
-  margin-left: 30px;
-  position: relative;
-  bottom: -50px;
+  margin-left: 70px;
+  position: absolute;
+  bottom: 50px;
+  width: 30px;
+  color: white;
 }
 
 /*  Main Section  */
@@ -376,10 +377,16 @@ article p {
   height: 1584px;
 }
 
+.person-image-large:hover {
+  transform: rotate(0deg);
+}
+
 .person-image-large {
   width: 260px;
   height: 260px;
   margin: 40px;
+  transform: rotate(-15deg);
+  border-radius: 5px;
 }
 
 section img {
@@ -404,10 +411,15 @@ section h3 {
   margin: 130px 60px;
 }
 
+.person-article-image:hover {
+  transform: rotate(0deg);
+}
+
 .person-article-image {
   border-radius: 6px;
   border: 3px solid white;
   margin-right: 8px;
+  transform: rotate(-25deg);
 }
 
 article div h3 {
@@ -502,15 +514,13 @@ footer div p span a {
   color: white;
 }
 
-/* footer div li a {
-  position: relative;
-  left: -6px;
-} */
+footer div li a {
+  text-decoration: none;
+}
 
-/* footer div li {
-  position: relative;
-  left: -80px;
-} */
+footer div li a:hover {
+  color: dimgray;
+}
 
 .footer-padding-1 {
   padding-top: 28px;
