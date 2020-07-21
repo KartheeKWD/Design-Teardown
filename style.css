@@ -11,7 +11,7 @@ body {
   background-color: gray;
   width: 100vw;
   min-width: 1440px;
-  font-family: "Nunito", sans-serif, "Dosis", sans-serif;
+  font-family: "Nunito", "Dosis", sans-serif;
 }
 
 a {
@@ -71,7 +71,6 @@ nav ul {
 .effect {
   color: white;
   text-decoration: none;
-
   padding: 10px;
   border-radius: 3px;
 }
@@ -270,15 +269,15 @@ nav ul {
   padding: 56px;
 }
 
-.arrow-wrapper-2:hover {
-  background-color: #48494b;
-  padding: 50px;
-}
-
 .arrow-wrapper-2 {
   position: absolute;
   bottom: 0;
   left: 0;
+  padding: 50px;
+}
+
+.arrow-wrapper-2:hover {
+  background-color: #48494b;
   padding: 50px;
 }
 
@@ -301,7 +300,6 @@ h1 span {
   background-color: white;
   display: inline-block;
   text-align: center;
-
   padding: 10px;
 }
 
@@ -333,6 +331,7 @@ article p {
   padding-left: 25px;
   padding-bottom: 16px;
 }
+
 .card-2 {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 32px;
@@ -347,6 +346,15 @@ article p {
   height: 550px;
   padding: 50px 50px 100px 50px;
   color: black;
+}
+
+.card-3-container article {
+  border: none;
+  border-radius: 10px;
+  padding: 6px 40px 10px 5px;
+  margin: 10px;
+  height: 465px;
+  background-color: #48494b;
 }
 
 .card-2 article:hover {
@@ -364,6 +372,18 @@ article p {
 .special-div {
   height: 250px;
   background-color: #696969;
+}
+
+footer div a {
+  color: white;
+}
+
+footer div li a {
+  text-decoration: none;
+}
+
+footer div p span a {
+  color: white;
 }
 
 .special-div a {
@@ -389,16 +409,16 @@ article p {
   height: 1584px;
 }
 
-.person-image-large:hover {
-  transform: rotate(0deg);
-}
-
 .person-image-large {
   width: 260px;
   height: 260px;
   margin: 40px;
   transform: rotate(-15deg);
   border-radius: 5px;
+}
+
+.person-image-large:hover {
+  transform: rotate(0deg);
 }
 
 section img {
@@ -423,15 +443,21 @@ section h3 {
   margin: 130px 60px;
 }
 
-.person-article-image:hover {
-  transform: rotate(0deg);
-}
-
 .person-article-image {
   border-radius: 6px;
   border: 3px solid white;
   margin-right: 8px;
   transform: rotate(-15deg);
+}
+
+.person-article-image:hover {
+  transform: rotate(0deg);
+}
+
+footer h3 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 14px;
 }
 
 article div h3 {
@@ -466,13 +492,8 @@ article div h3 {
   font-size: 24px;
 }
 
-.card-3-container article {
-  border: none;
-  border-radius: 10px;
-  padding: 6px 40px 10px 5px;
-  margin: 10px;
-  height: 465px;
-  background-color: #48494b;
+footer p {
+  padding-top: 80px;
 }
 
 .card-3-container article p {
@@ -496,38 +517,20 @@ footer {
   background-color: #48494b;
 }
 
-footer h3 {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  font-size: 14px;
-}
-
-footer p {
-  padding-top: 80px;
-}
-
 footer div {
   width: 1240px;
-}
-
-.footer div ul li a {
-  padding-right: 20px;
-}
-
-footer div a {
-  color: white;
 }
 
 .footer-bottom-style a {
   margin: 0 10px;
 }
 
-footer div p span a {
-  color: white;
+.last-div li a {
+  padding-right: 30px;
 }
 
-footer div li a {
-  text-decoration: none;
+.footer div ul li a {
+  padding-right: 20px;
 }
 
 footer div li a:hover {
@@ -547,11 +550,6 @@ footer div li a:hover {
 }
 
 .last-div {
-  /* margin-right: 50px; */
   width: 1230px;
   justify-content: center;
-}
-
-.last-div li a {
-  padding-right: 30px;
 }
