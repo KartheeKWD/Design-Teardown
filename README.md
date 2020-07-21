@@ -2,11 +2,12 @@
 
 The aim of this project was to build a greyscale clone of the Smashing Magazine website utilizing flexbox, grid, and float to highlight the importance of visual hierarchy.
 
-<img width="1440" alt="Screen Shot 2020-07-22 at 12 58 42 AM" src="https://user-images.githubusercontent.com/62937819/88084192-9c994c00-cbb6-11ea-8aab-0979a41e2778.png">
+![screenshot](images/screenshot.png)
 
 - It is almost identical to the [original page](https://www.smashingmagazine.com/).
 
 ## Built with
+
 - HTML
 - CSS
 
@@ -38,8 +39,6 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-
 ## 📝 MIT License
 
 This project makes use of the MIT license.
-
