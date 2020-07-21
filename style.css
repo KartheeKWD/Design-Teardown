@@ -107,6 +107,10 @@ nav ul {
   text-align: justify;
 }
 
+.justify-self {
+  justify-self: end;
+}
+
 .remove-underline {
   text-decoration: none;
 }
@@ -275,13 +279,44 @@ nav ul {
   display: block;
 }
 
-.arrow-card-1 {
-  width: 24px;
-  margin-left: 70px;
+/* .arrow-card-1:hover {
   position: absolute;
-  bottom: 50px;
+  bottom: 0;
+  left: 0;
   width: 30px;
+  padding: 100px;
   color: white;
+  background-color: #2b2d2f;
+} */
+
+.arrow-wrapper-1 {
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  padding: 56px;
+}
+
+.arrow-wrapper-2:hover {
+  background-color: #48494b;
+  padding: 50px;
+}
+
+.arrow-wrapper-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+}
+
+.arrow-card-1 {
+  width: 38px;
+  height: 38px;
+}
+
+.arrow-card-2 {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
 }
 
 /*  Main Section  */
@@ -312,6 +347,7 @@ h2 span::before {
 
 .card-1 {
   height: 712px;
+  position: relative;
 }
 
 #main-article-container {
@@ -337,7 +373,12 @@ article p {
   /* padding: 50px 50px 100px 50px; */
 }
 
+.card-2 article:hover .arrow-wrapper-2 {
+  background-color: #48494b;
+}
+
 .card-2 article {
+  position: relative;
   height: 550px;
   padding: 50px 50px 100px 50px;
   color: black;
@@ -347,7 +388,6 @@ article p {
   background-color: white;
   transition: ease-out color 0.9s;
   color: black;
-
   box-shadow: grey;
 }
 
