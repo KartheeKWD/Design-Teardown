@@ -344,12 +344,32 @@ article p {
 }
 
 .smashing-members-card {
-  background-color: tomato;
-  color: aqua;
-  /* height: 710px; */
-  width: 439px;
+  background-color: #48494b;
+  color: white;
   padding: 50px;
   border-radius: 5px;
+}
+
+.smashing-tv {
+  padding: 30px 50px 50px 50px;
+  height: 695px;
+  min-width: 1321px;
+  background-color: #48494b;
+}
+
+.smashing-tv button {
+  margin: 20px;
+}
+
+.border-radius {
+  border-radius: 50%;
+}
+
+.smashing-text {
+  justify-content: center;
+  margin: 0 auto;
+  width: 720px;
+  height: 695px;
 }
 
 .card-2 {
@@ -363,7 +383,7 @@ article p {
 
 .card-2 article {
   position: relative;
-  height: 550px;
+  min-height: 550px;
   padding: 50px 50px 100px 50px;
   color: black;
 }
@@ -430,7 +450,7 @@ footer div p span a {
 }
 
 .person-image-large {
-  background-color: #48494b;
+  background-color: #2b2d2f;
   width: 260px;
   height: 260px;
   margin: 40px;
@@ -509,17 +529,21 @@ article div h3 {
 }
 
 button {
+  font-weight: bold;
+  border: none;
   cursor: pointer;
+  background-color: #a9a9a9;
+  padding: 18px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #2b2d2f;
 }
 
 .card-3-container button {
   display: block;
-  border-radius: 5px;
-  padding: 18px;
   border: none;
   margin-top: 32px;
   background-color: #a9a9a9;
-  font-size: 24px;
 }
 
 footer p {
