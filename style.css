@@ -9,8 +9,7 @@
 body {
   color: white;
   background-color: gray;
-  width: 100vw;
-  min-width: 1440px;
+  max-width: 1440px;
   font-family: "Nunito", "Dosis", sans-serif;
 }
 
@@ -81,6 +80,10 @@ nav ul {
 }
 
 /* Generic Classes */
+
+.flex-column {
+  flex-direction: column;
+}
 
 .m-0-auto {
   margin: 0 auto;
@@ -338,6 +341,15 @@ h2 span::before {
 article p {
   padding-left: 25px;
   padding-bottom: 16px;
+}
+
+.smashing-members-card {
+  background-color: tomato;
+  color: aqua;
+  /* height: 710px; */
+  width: 439px;
+  padding: 50px;
+  border-radius: 5px;
 }
 
 .card-2 {
