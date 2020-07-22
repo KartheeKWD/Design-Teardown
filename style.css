@@ -359,6 +359,17 @@ article p {
   margin-bottom: 88px;
 }
 
+button {
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #a9a9a9;
+  padding: 18px;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #2b2d2f;
+}
+
 .smashing-tv button {
   margin: 20px;
 }
@@ -368,7 +379,6 @@ article p {
 }
 
 .smashing-text {
-  margin-bottom: 20px;
   justify-content: center;
   margin: 0 auto;
   width: 720px;
@@ -389,6 +399,18 @@ article p {
 
 .encourage-clicks button {
   margin-bottom: 50px;
+}
+
+footer div a {
+  color: white;
+}
+
+footer div li a {
+  text-decoration: none;
+}
+
+footer div p span a {
+  color: white;
 }
 
 .encourage-clicks-text a {
@@ -470,18 +492,6 @@ article p {
 .special-div {
   height: 250px;
   background-color: #696969;
-}
-
-footer div a {
-  color: white;
-}
-
-footer div li a {
-  text-decoration: none;
-}
-
-footer div p span a {
-  color: white;
 }
 
 .special-div a {
@@ -584,17 +594,6 @@ article div h3 {
   grid-row-gap: 40px;
   grid-column-gap: 5px;
   margin: 64px 50px;
-}
-
-button {
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  background-color: #a9a9a9;
-  padding: 18px;
-  border-radius: 5px;
-  font-size: 24px;
-  color: #2b2d2f;
 }
 
 .card-3-container button {
