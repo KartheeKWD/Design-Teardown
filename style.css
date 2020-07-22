@@ -151,6 +151,9 @@ nav ul {
 }
 
 .article-image {
+  background-color: #2b2d2f;
+  width: 75px;
+  height: 75px;
   border-radius: 6px;
   border: 3px solid white;
   margin-bottom: 20px;
@@ -160,6 +163,7 @@ nav ul {
 
 .article-image:hover {
   transform: rotate(0deg);
+  background-color: white;
 }
 
 .space-around {
@@ -212,6 +216,10 @@ nav ul {
 
 .dim-gray {
   background-color: #696969;
+}
+
+.dim-gray-text {
+  color: #696969;
 }
 
 .iron-text {
@@ -410,6 +418,7 @@ footer div p span a {
 }
 
 .person-image-large {
+  background-color: #48494b;
   width: 260px;
   height: 260px;
   margin: 40px;
@@ -419,9 +428,10 @@ footer div p span a {
 
 .person-image-large:hover {
   transform: rotate(0deg);
+  background-color: white;
 }
 
-section img {
+section div {
   float: left;
   border: 5px solid white;
 }
@@ -444,6 +454,9 @@ section h3 {
 }
 
 .person-article-image {
+  background-color: #2b2d2f;
+  width: 241px;
+  height: 69px;
   border-radius: 6px;
   border: 3px solid white;
   margin-right: 8px;
@@ -452,6 +465,7 @@ section h3 {
 
 .person-article-image:hover {
   transform: rotate(0deg);
+  background-color: white;
 }
 
 footer h3 {
@@ -480,6 +494,10 @@ article div h3 {
   grid-row-gap: 40px;
   grid-column-gap: 5px;
   margin: 64px 50px;
+}
+
+button {
+  cursor: pointer;
 }
 
 .card-3-container button {
