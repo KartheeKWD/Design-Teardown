@@ -372,6 +372,37 @@ article p {
   height: 695px;
 }
 
+.encourage-clicks {
+  background-color: burlywood;
+  height: 1050px;
+}
+
+.encourage-clicks-text {
+  width: 800px;
+  padding: 50px 0;
+}
+
+.encourage-clicks button {
+  margin-bottom: 50px;
+}
+
+.encourage-clicks-text a {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.design-systems {
+  background-color: brown;
+  height: 410px;
+  position: relative;
+}
+
+.feature-book-image {
+  position: absolute;
+  top: -40px;
+
+  right: 50px;
+}
 .card-2 {
   grid-template-columns: repeat(3, 1fr);
   grid-row-gap: 32px;
