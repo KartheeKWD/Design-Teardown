@@ -13,7 +13,7 @@ The aim of this project was to build a greyscale clone of the Smashing Magazine 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/KartheekWD/Design-Teardown/d18fd57c6a2cb0c71e9a710bee9de920c57782ab/index.html)
+[Live Demo Link](https://rawcdn.githack.com/KartheekWD/Design-Teardown/73b331ba0da6d124e8dd0a925a2baf0a835b61b1/index.html)
 
 ## Authors
 
