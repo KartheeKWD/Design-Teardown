@@ -8,7 +8,7 @@ The aim of this project was to build a greyscale clone of the Smashing Magazine 
 
 ## Built with
 
-- HTML
+- HTML 
 - CSS
 
 ## Live Demo
