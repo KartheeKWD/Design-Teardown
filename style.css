@@ -367,10 +367,6 @@ article p {
   border-radius: 50%;
 }
 
-.smashing-tv img {
-  margin-bottom: 20px;
-}
-
 .smashing-text {
   margin-bottom: 20px;
   justify-content: center;
@@ -382,6 +378,8 @@ article p {
 .encourage-clicks {
   background-color: #2b2d2f;
   height: 1050px;
+  padding-top: 40px;
+  padding-bottom: 66px;
 }
 
 .encourage-clicks-text {
@@ -396,6 +394,11 @@ article p {
 .encourage-clicks-text a {
   display: block;
   margin-bottom: 30px;
+}
+
+.june {
+  margin-right: 15px;
+  padding-left: 10px;
 }
 
 .design-systems {
